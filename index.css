@@ -1,0 +1,57 @@
+::-webkit-scrollbar {
+    width: 5px;
+}
+  
+  ::-webkit-scrollbar-thumb {
+    background: #3b404a;
+    border-radius: 25px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    height: 595px;
+    width: 400px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 5px;
+}
+
+.form {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5px;
+}
+
+.form > input {
+    border: 2px solid black;
+    padding: 5px;
+}
+
+.own-message {
+    text-align: right;
+}
+
+#content {
+    height: 95%;
+    width: calc(100% - 10px);
+    align-self: flex-end;
+    overflow-y: scroll;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin-bottom: 10px;
+    padding: 0 5px;
+}
+
+#submit-button, #name-input {
+    width: 15%;
+}
+
+#message-input {
+    width: 60%;
+}
